@@ -30,6 +30,8 @@ This guide describes the steps to setup Eclipse and how to debug an add-on in Ec
 1. Select `Eclipse IDE for Java Developers`. Select `Next >`.
 
     ![select](./images/ide_setup_eclipse_3_select_ide.png)
+    
+     If you already have an existing Eclipse-installation but no bundle pools activated, you need to re-install Eclipse using the Eclipse installer with bundle pools activated. Without bundle pools and without selecting advanced mode you won't find above selection.
 
 1. Under `GitHub Projects > openHAB` select `openHAB Development` and any desired option from `openHAB Add-ons` (includes all add-ons from openhab-addons repo), `openHAB ZigBee Binding` or `openHAB Z-Wave Binding`.
 
